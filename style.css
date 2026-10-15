@@ -1,0 +1,85 @@
+/* 1. Element selector: định dạng toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333333;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+/* 2. Grouping selector: áp dụng chung cho nhiều phần tử */
+h1, h2 {
+    font-family: Arial, sans-serif;
+    color: #1d3557;
+}
+
+/* 3. ID selector: căn giữa tiêu đề */
+#main-title {
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 25px;
+}
+
+/* 4. Class selector: định dạng đoạn giới thiệu */
+.introduction {
+    background-color: #ffffff;
+    padding: 15px;
+    border-left: 5px solid #0077b6;
+    border-radius: 6px;
+    line-height: 1.7;
+}
+
+/* Định dạng danh sách sở thích */
+.hobby-list {
+    padding-left: 25px;
+}
+
+.hobby-list li {
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+
+/* Mỗi sở thích có một màu riêng */
+.hobby-reading {
+    color: #c1121f;
+    background-color: #ffe5e5;
+}
+
+.hobby-coding {
+    color: #087f5b;
+    background-color: #d3f9d8;
+}
+
+.hobby-sport {
+    color: #6741d9;
+    background-color: #e5dbff;
+}
+
+/* ID selector: định dạng nút bấm */
+#my-button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* 5. Pseudo-class: hiệu ứng khi rê chuột */
+#my-button:hover {
+    background-color: #023e8a;
+    transform: scale(1.05);
+}
+
+/* Giới hạn chiều rộng nội dung và căn giữa */
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
